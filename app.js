@@ -4,7 +4,7 @@
     const div2 = document.getElementById('app2');
     angular
     .module('app1', [])
-    .controller('nameChanger', function($scope)
+    .controller('nameChanger', ($scope)=>
     {
         $scope.nome = '';
     });
